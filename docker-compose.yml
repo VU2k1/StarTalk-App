@@ -1,0 +1,30 @@
+version: '3.9'
+services:
+  mysql1:
+    image: mysql:5.7
+    container_name: dbFinal
+    volumes:
+      - ./dbfiles:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+  node1:
+    build: ./server/
+    container_name: nodejsFinal
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./server/:/usr/src/app/pages
+    depends_on:
+      mysql1:
+        condition: "service_started"
+    stdin_open: true
+    tty: true
+  app1:
+    container_name: appFinal
+    build: ./chat_app/
+    ports:
+      - "80:3000"
+    volumes:
+      - ./chat_app/:/usr/src/app
+    stdin_open: true
+    tty: true
