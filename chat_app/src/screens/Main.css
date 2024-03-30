@@ -1,0 +1,171 @@
+.main{
+    background-image: url("../images/login.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgba(62, 48, 152, 0.8);
+    height: 70%;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+}
+
+
+.sidebar{
+    
+    flex:1;
+    color: azure;
+    border-right: 1px solid black;
+    background-color: rgba(35,39,42,0.8);
+    position: relative;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: #2f2d52; 
+    height: 50px;
+    padding: 10px;
+    justify-content: space-between;
+    color: azure;
+}
+
+.chats{
+    overflow: auto;
+    height: 69%;
+}
+/* Style the scrollbar */
+.chats::-webkit-scrollbar {
+    width: 6px; /* Width of the scrollbar */
+    background-color: #f3f3f3; /* Background color of the scrollbar */
+}
+
+/* Style the scrollbar thumb */
+.chats::-webkit-scrollbar-thumb {
+    background-color: #777; /* Color of the scrollbar thumb */
+    border-radius: 3px; /* Border radius of the scrollbar thumb */
+}
+
+.delbar {
+    /* Set the delbar div to absolute position */
+    position: absolute;
+    bottom: 0; /* Position at the bottom of the parent div */
+    display: flex;
+    align-items: center;
+    background-color: #2f2d52; 
+    width: 92%;
+    overflow: hidden;
+    height: 50px;
+    padding: 20px;
+    justify-content: space-between;
+    color: azure;
+}
+
+.delInput{
+    width: 70%;
+}
+
+.chat{
+    overflow: hidden;
+    flex:2;
+    color: azure;
+    background-color: rgba(44, 47, 51,0.8);
+}
+
+
+img{
+    
+    background-size: cover;
+    background-color:orange;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+button{
+    background-color: rgba(153, 170, 181);
+    color: azure;
+    font-size: 10px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+    
+.input{
+    display: flex;
+}
+.msgBar{
+    background-color:#2C2F33 ;
+    color: white;
+    width: 85%;
+}
+.SendBtn{
+    width: 15%;
+}
+.channels{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.channelName{
+    font-size: 18px;
+    font-weight: 500;
+}
+.chatInfo{
+    height:50px;
+    background-color: #23272A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:lightgray;
+}
+.chatIcon{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.channelIcon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.ReplyIcon{
+    cursor: pointer;
+}
+.messages {
+    padding: 10px;
+    height: 79%;
+    overflow: auto; /* Change to "auto" to show scrollbar only when needed */
+}
+
+/* Style the scrollbar */
+.messages::-webkit-scrollbar {
+    width: 6px; /* Width of the scrollbar */
+    background-color: #f3f3f3; /* Background color of the scrollbar */
+}
+
+/* Style the scrollbar thumb */
+.messages::-webkit-scrollbar-thumb {
+    background-color: #777; /* Color of the scrollbar thumb */
+    border-radius: 3px; /* Border radius of the scrollbar thumb */
+}
+

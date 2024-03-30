@@ -1,0 +1,79 @@
+.formContainer{
+    background-image: url("../images/login.jpg");
+    background-size: cover;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.logoContainer{
+    background-image: url("../images/logo.jpg");
+    background-size: cover;
+    border-radius: 50px;
+    padding: 45px 20px;
+    
+    
+  
+}
+.formWrapper{
+    background-color: rgba(62, 48, 152, 0.5);
+    padding: 20px 60px;
+    border-radius: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.logo{
+    color:azure;
+    font-weight: bold;
+    font-size: 34px;
+    font-style:italic;
+}
+.title{
+    color:azure;
+    font-weight: bold;
+}
+
+input{
+    background-color: white;
+    padding: 10px;
+    width: 260px;
+    color: black;
+}
+button{
+    background: azure;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
+p{
+    color:rgb(255, 255, 255);
+    font-size: 10px;
+}
+.registerLink{
+    border-color: black;
+    color: cornflowerblue;
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+   
+}
+
+label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: azure;
+    font-size: 12px;
+    cursor: pointer;
+}
+p{
+    font-size: 15px;
+}

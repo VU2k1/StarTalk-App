@@ -1,0 +1,136 @@
+.replyContainer{
+    background-image: url("../images/login.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.repChat{
+    background-color: rgba(44, 47, 51,0.8);
+    height: 70%;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.repMsg{
+    height:100px;
+    width: 98%;
+    background-color: #23272A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:lightgray;
+    font-size: large;
+}
+
+.replies {
+    padding: 10px;
+    width: 98%;
+    height: 79%;
+    overflow: auto; /* Change to "auto" to show scrollbar only when needed */
+    color: azure;
+}
+
+.replies::-webkit-scrollbar {
+    width: 6px; /* Width of the scrollbar */
+    background-color: #f3f3f3; /* Background color of the scrollbar */
+}
+
+/* Style the scrollbar thumb */
+.replies::-webkit-scrollbar-thumb {
+    background-color: #777; /* Color of the scrollbar thumb */
+    border-radius: 3px; /* Border radius of the scrollbar thumb */
+}
+
+.input{
+    display: flex;
+    width: 98%;
+    overflow: hidden;
+}
+.msgBar{
+    background-color:#2C2F33 ;
+    color: white;
+    width: 85%;
+}
+.SendBtn{
+    width: 15%;
+}
+
+.backIcon{
+    background-size: cover;
+    background-color:#23272A;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.showRepBtn{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 20px;
+    display: flex; /* Add display: flex; */
+    justify-content: center; /* Align content horizontally at center */
+    align-items: center; /* Align content vertically at center */    
+}
+.repChat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.repStats{
+    color: azure;
+    font-size: 50px;
+}
+.msgStats{
+    font-size: 50px;
+    color: azure;
+}
+.logoContainer{
+    background-image: url("../images/logo.jpg");
+    background-size: cover;
+    height: 30%;
+    width: 20%;
+
+    border-radius: 50%;
+    padding: 45px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.logo{
+    color:azure;
+    font-weight: bold;
+    font-size: 40px;
+    font-style:italic;
+}
+
+.intro{
+    color:azure;
+    font-weight: bold;
+    font-size: 40px;
+    font-style:italic;
+}
+
+
+.LandingContainer{
+    background-image: url("../images/login.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.start{
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+    cursor: pointer;
+}
